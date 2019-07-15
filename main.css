@@ -1,13 +1,62 @@
-.projects-grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-.project-title {
+html {
+ 
+}
+body {
+  background-color: var(--main-gray)
+}
+
+.headeline {
+   
+}
+
+div {
+ 
+}
+
+nav {
+	
+}
+
+button {
+	
+}
+
+h1 {
+	
+}
+
+p {
+	
+}
+
+a {
+	
+}
+
+a:hover {
 
 }
 
-.project-img {
-    width: 100%;
-    display: flex;
-    position: relative;
+a:visisted {
+
+}
+
+header {
+ 
+}
+
+main {
+  
+}
+
+.footer {
+  
+}
+
+hr {
+	
+}
+
+img {
+	
 }
