@@ -15,7 +15,9 @@ a{
     color: var(--alt-text);
 }
 html {
+    /*
     background: var(--main-background)
+    */
 }
 body {
     font-size: 1rem;

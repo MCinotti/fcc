@@ -23,23 +23,28 @@
 }
 
 main {
+  padding-top: 20px;
   margin: 0.5rem;
   padding: 1rem;
 }
 
 #welcome-section {
-  padding-top: 3rem;
+  width: 100%;
+  min-height: 40rem;
+ 
   background-color: var(--main-gray);
+  margin: 0.5rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .projects-grid {
     max-width: 100%;
-    height: auto;
+    max-height: 100rem;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template: 33.33% 33.33% 33.33%;
     grid-gap: 0.3rem;
-  }
+}
 
 .project-title p {
     align-content: bottom; 
@@ -50,20 +55,28 @@ main {
 
 .project-img {
     width: 100%;
-}
-
-.code {
-   
+    border-radius: 1rem;
 }
 
 #projects {
-	
+  min-height: 33rem;
+  max-height: 100rem;
+  padding-top: 3rem;
+  text-align: center;
 }
 
 #contact {
-	
+	min-height: 33rem;
+  text-align: center;
+  position: inherit
 }
 
 .contact {
-	
+  min-height: 33rem;
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  text-align: center;
 }
