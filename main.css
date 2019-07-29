@@ -1,8 +1,13 @@
-html {
- 
+* {
+  margin: 0rem;
+  padding: 0rem;
+  border: none;
+  font-family: Arial, sans-serif;
 }
+
 body {
-  background-color: var(--main-gray)
+  font-size: 14px;
+  background-color: var(--background-main);
 }
 
 .headeline {
@@ -34,6 +39,10 @@ a {
 }
 
 a:hover {
+
+}
+
+a:active {
 
 }
 

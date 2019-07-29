@@ -4,6 +4,11 @@
     --main-blue: #45567d;
     --main-gray: #303841;
 
+/* backround */
+    --background-main: #333;
+    --background-alt: #000000;
+
 /* nav-colors */
-	--nav-background: #000;
+    --nav-color: #ff3c00;
+    --nav-background: #430081da;
 }
