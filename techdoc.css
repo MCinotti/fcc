@@ -1,6 +1,7 @@
 body {
   display: block;
   font-family: var(--font-main);
+  font-size: 1rem;
   color: var(--text);
 }
 
@@ -9,8 +10,12 @@ body {
   background-color: var(--background-alt);
   color: var(--text-alt);
   text-align: left;
+  min-width: 25%;
+  max-width: 80%;
   padding: 0.5rem;
   margin-left: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0.1em 0.1em 0.8em var(--primary-alt);
 }
 
 .nav-bar {
@@ -22,29 +27,39 @@ body {
   width: 25%;
   height: 100%;
   border: 2px solid var(--secondary-alt);
+  box-shadow: 0.2em 0.2em 0.3em var(--background-alt);
 }
 
 .nav-header {
   display: block;
   font-family: var(--font-h1);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
-  padding: 1rem;
   background-color: var(--secondary-alt);
-  text-shadow: 0.1em 0.1em 0.15em var(--background);
+  text-shadow: 0.1em 0.1em 0.15em var(--text-alt);
 }
 
 .nav-link {
   display: block;
+  font-weight: 900;
+  font-size: 0.96rem;
   text-decoration: none;
   text-align: left;
-  color: var(--text);
+  color: var(--secondary);
   line-height: 2.2;
 }
 
-a:hover {
+.nav-bar ul {
+  list-style-type: none;
+}
+
+a {
   color: var(--secondary);
-  text-shadow: 0.1em 0.1em 0.15em var(--background-alt);
+}
+
+a:hover {
+  color: var(--text);
+  text-shadow: 0.1em 0.1em 0.15em var(--secondary-alt);
 }
 
 .main-doc {
@@ -73,7 +88,7 @@ a:hover {
 
 article p, li {
   text-align: justify;
-  font-size: 0.96rem;
+  font-size: 1.1rem;
   margin: 2%;
   line-height: 1.5;
 }
