@@ -1,17 +1,18 @@
 body {
+  display: block;
   font-family: var(--font-main);
   color: var(--text);
 }
 
-#main-doc {
-  display: block;
-  position: relative;
-  top: 0;
-  left: 25%;
-  width: 65%;
-  min-width: 290px;
-  margin: 2%;
+.code {
+  font-family: monospace;
+  background-color: var(--background-alt);
+  color: var(--text-alt);
+  text-align: left;
+  padding: 0.5rem;
+  margin-left: 3rem;
 }
+
 .nav-bar {
   display: block;
   background-color: var(--background);
@@ -44,6 +45,15 @@ body {
 a:hover {
   color: var(--secondary);
   text-shadow: 0.1em 0.1em 0.15em var(--background-alt);
+}
+
+.main-doc {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 28%;
+  width: 65%;
+  margin: 2%;
 }
 
 .main-section {
