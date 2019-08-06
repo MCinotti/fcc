@@ -6,7 +6,6 @@ body {
 }
 
 .nav {
-  display: inline-block;
   position: fixed;
   background-color: var(--primary);
   border: 0px solid var(--primary-alt);
@@ -17,8 +16,7 @@ body {
 }
 
 .nav img {
-  height: 25%;
-  width: 25%;
+  width: 35%;
   border-radius: 2rem;
   margin-top: 0.45rem;
   margin-left: 0.96rem;
@@ -31,7 +29,8 @@ body {
   text-shadow: 0.1rem 0.1rem 0.16rem var(--text-alt);
   margin: 1rem;
   right: 0;
-  top: 0;  
+  top: 0;
+  width: 100%; 
 }
 
 .nav-bar a {
@@ -47,12 +46,12 @@ body {
 }
 .main {
   display: block;
-  box-align: center;
   text-align: center;
   margin-top: 3%;
+  width: 100%;
 }
 
-.main h1 {
+.heading {
   text-shadow: 0.1rem 0.1rem 0.15rem var(--primary-alt);
 }
 
@@ -77,15 +76,30 @@ body {
 }
 
 .features {
-  display: inline-block;
+  margin: 1rem;
+  display: block;
   text-align: left;
+  width: 100%;
+}
+
+.icon {
+  display: grid;
+}
+.features-details {
+  display: inline-block;
 }
 
 .features h2 {
   text-shadow: 0.1rem 0.1rem 0.15rem var(--secondary);
 }
 
-iframe {
+.how-it-works {
+  width: 100%;
+  margin: 1rem;
+}
+
+.video {
+  border-color: var(--secondary);
   border-radius: 2rem;
 }
 
@@ -100,7 +114,7 @@ iframe {
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0.1em 0.1em 0.5em 0.2em var(--primary);
-  width: 16rem;
+  width: 11rem;
 }
 
 .pricing h1 {
