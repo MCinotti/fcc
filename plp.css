@@ -9,8 +9,8 @@ body {
   display: inline-block;
   position: fixed;
   background-color: var(--primary);
-  border: 1px solid var(--primary-alt);
-  box-shadow: 0.1rem 0.1rem 0.16rem var(--primary-alt);
+  border: 0px solid var(--primary-alt);
+  box-shadow: 0.1rem 0.1rem 0.26rem var(--primary-alt);
   right: 0;
   top: 0;
   width: 100%;
@@ -49,18 +49,58 @@ body {
   display: block;
   box-align: center;
   text-align: center;
-  margin-top: 6%;
+  margin-top: 3%;
+}
+
+.main h1 {
+  text-shadow: 0.1rem 0.1rem 0.15rem var(--primary-alt);
+}
+
+.btn {
+  background-color: var(--primary-alt);
+  color: var(--text);
+  text-shadow: 0.1rem 0.1rem 0.15rem var(--text-alt);
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+
+.email-input {
+  border-radius: 1rem;
+}
+
+.email-input::placeholder {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.features {
+  display: inline-block;
+  text-align: left;
+}
+
+.features h2 {
+  text-shadow: 0.1rem 0.1rem 0.15rem var(--secondary);
+}
+
+iframe {
+  border-radius: 2rem;
+}
+
+.specials {
+  display: inline-flex;
 }
 
 .pricing {
-  display: inline-block;
-  box-align: center;
   text-align: center;
   background-color: var(--background-alt);
   margin: 1rem;
   padding: 1rem;
   border-radius: 1rem;
   box-shadow: 0.1em 0.1em 0.5em 0.2em var(--primary);
+  width: 16rem;
 }
 
 .pricing h1 {
