@@ -5,6 +5,16 @@ body {
   color: var(--text);
 }
 
+.video {
+  width: 40vw;
+  height: 20vw;
+}
+
+#header{
+  margin: 0;
+  padding: 0;
+
+}
 .nav {
   position: fixed;
   background-color: var(--primary);
@@ -16,10 +26,10 @@ body {
 }
 
 .nav img {
-  width: 35%;
+  width: 100%;
   border-radius: 2rem;
-  margin-top: 0.45rem;
-  margin-left: 0.96rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 .nav-bar {
@@ -30,13 +40,13 @@ body {
   margin: 1rem;
   right: 0;
   top: 0;
-  width: 100%; 
+  width: 100%;
 }
 
 .nav-bar a {
-  font-size: 1.2rem;
+  font-size: 2rem;
   text-decoration: none;
-  margin: 0.96rem;
+  margin-right: 2rem;
   color: var(--text);
 }
 
@@ -45,10 +55,9 @@ body {
   text-shadow: 0.1rem 0.1rem 0.15rem var(--primary-alt);
 }
 .main {
-  display: block;
   text-align: center;
   margin-top: 3%;
-  width: 100%;
+  width: 100vw;
 }
 
 .heading {
@@ -61,8 +70,8 @@ body {
   text-shadow: 0.1rem 0.1rem 0.15rem var(--text-alt);
   font-weight: bold;
   border: none;
-  padding: 0.5rem;
-  margin-top: 0.5rem;
+  padding: 0.2rem;
+  margin-top: 0.2rem;
   border-radius: 1rem;
 }
 
@@ -77,20 +86,30 @@ body {
 
 .features {
   margin: 1rem;
-  display: block;
+  display: flex;
   text-align: left;
   width: 100%;
 }
+.features h2 {
+  display: inline;
+  text-shadow: 0.1rem 0.1rem 0.15rem var(--secondary);
+}
+.features-details{
+  display: inline;
+}
+
+.grid {
+    display: flex-box;
+    width: 80vw;
+    height: auto;
+}
 
 .icon {
-  display: grid;
-}
-.features-details {
-  display: inline-block;
-}
-
-.features h2 {
-  text-shadow: 0.1rem 0.1rem 0.15rem var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.2rem;
+  width: 15vw;
 }
 
 .how-it-works {
@@ -133,4 +152,5 @@ body {
 
 .footer {
   text-align: center;
+  display: fixed;
 }

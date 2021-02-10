@@ -4,6 +4,8 @@
     --main-text: #97c8eb;
     --alt-text: #3aafb9;
     --main-highlight: #64a4ee;
+
+    background: var(--main-background);
 }
 a:hover {
     color: crimson;

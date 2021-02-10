@@ -1,7 +1,7 @@
-# fcc-projects
-FreeCodeCamp Projects
+# FreeCodeCamp Projects
 
 Responsive Web Design Projects:
+
 - Tribute
 - Survey
 - Product Landing
